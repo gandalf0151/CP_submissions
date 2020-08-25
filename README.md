@@ -1,5 +1,7 @@
 # CP-My-Submissions
 All of my competitive programming submissions
+
+[Notes](https://github.com/gandalf0151/CP_submissions/blob/master/Notes.md)
 ***
 Date: 18/08/2020
 # 100 Days of CP
