@@ -2,38 +2,24 @@
    identification information */
 /*
 ID: gandalf11
-TASK: ride
+TASK: gift1
 LANG: C++14                
 */
 /* LANG can be C++11 or C++14 for those more recent releases */
 #include <bits/stdc++.h>
 using namespace std;
 
-#define ll long long
-#define ar array    
 
-ll solve()
+#define IOS ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+#define endl "\n"
+#define ll long long
+
+const ll N = 1e4 + 5;
+
+int solve()
 {
-    ll p1=1,p2=1,i=0,n;
-    string s1,s2;
-    cin>>s1>>s2;
-    n=s1.length();
-    while(n--)
-    {
-        p1=((p1%47)*((s1[i]-64)%47)%47);
-        i++;
-    }
-    i=0;
-    n=s2.length();
-    while(n--)
-    {
-        p2=((p2%47)*((s2[i]-64)%47)%47);
-        i++;
-    }
-    if(p1%47==p2%47)
-        cout<<"GO"<<endl;
-    else
-        cout<<"STAY"<<endl;
+    ll n;
+    cin>>n;
 
     
     
@@ -42,10 +28,9 @@ ll solve()
 }
 
 int main() {
-    ios::sync_with_stdio(0);
-    cin.tie(0);
-    freopen("ride.in", "r", stdin);
-    freopen("ride.out", "w", stdout);
+    IOS;
+    freopen("friday.in", "r", stdin);
+    freopen("friday.out", "w", stdout);
       
     solve();
 }
