@@ -1,0 +1,40 @@
+[
+    {
+        "arguments": [
+            "g++",
+            "-c",
+            "-std=c++17",
+            "-O2",
+            "-Wall",
+            "-Wextra",
+            "-pedantic",
+            "-Wshadow",
+            "-Wformat=2",
+            "-Wfloat-equal",
+            "-Wconversion",
+            "-Wlogical-op",
+            "-Wshift-overflow=2",
+            "-Wduplicated-cond",
+            "-Wcast-qual",
+            "-Wcast-align",
+            "-Wno-unused-result",
+            "-Wno-sign-conversion",
+            "-fsanitize=address",
+            "-fsanitize=undefined",
+            "-fsanitize=float-divide-by-zero",
+            "-fsanitize=float-cast-overflow",
+            "-fno-sanitize-recover=all",
+            "-fstack-protector-all",
+            "-D_FORTIFY_SOURCE=2",
+            "-D_GLIBCXX_DEBUG",
+            "-D_GLIBCXX_DEBUG_PEDANTIC",
+            "-isystem",
+            ".precompiled_headers",
+            "-o",
+            "stringstream",
+            "stringstream.cpp"
+        ],
+        "directory": "/home/manas/Desktop/CM/coding/CP/codes/CompetitiveProgramming/Hackerrank/cpp/stringstream",
+        "file": "stringstream.cpp"
+    }
+]
